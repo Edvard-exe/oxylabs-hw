@@ -114,7 +114,7 @@ class Vectorization:
     
     def add_context(self, chunk: Dict[str, Any]) -> str:
         """
-        Add context to a single chunk, by using GPT-4o-mini to generate a context for the chunk.
+        Add context to a single chunk, by using GPT-4o-mini
         """
 
         DOCUMENT_CONTEXT = f"""
