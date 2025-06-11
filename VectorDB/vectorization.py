@@ -191,7 +191,6 @@ class Vectorization:
                 batch_embeddings = [embedding.embedding for embedding in response.data]
                 all_embeddings.extend(batch_embeddings)
             except Exception as e:
-                # Skip failed batches and continue processing
                 continue
         
         return all_embeddings
