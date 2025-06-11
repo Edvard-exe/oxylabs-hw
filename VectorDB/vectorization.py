@@ -151,7 +151,6 @@ class Vectorization:
             context = response.choices[0].message.content
             return context
         except Exception as e:
-            # Fallback to empty context if API call fails
             return ""
 
     def process_chunks_parallel(self, chunks: List[Dict[str, Any]], parallel_threads: int = 4) -> List[Dict[str, Any]]:
