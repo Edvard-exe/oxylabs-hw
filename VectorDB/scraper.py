@@ -134,8 +134,7 @@ class Scraper:
             'parent_url': None,
             'section_name': self.section_name
         }]
-
-        # Process URLs efficiently
+        
         for url in urls:
             full_url = f"https://developers.oxylabs.io{url}"
             print(full_url)
