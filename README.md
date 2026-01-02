@@ -15,7 +15,7 @@ This project implements a sophisticated documentation assistant that scrapes Oxy
 - **Source Attribution**: All answers include direct links to source documentation
 - **Programming Language Awareness**: Detects and filters content by programming languages (Python, PHP, cURL, JavaScript, etc.)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 oxylabs/
