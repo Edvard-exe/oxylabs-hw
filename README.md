@@ -2,7 +2,7 @@
 
 A comprehensive RAG (Retrieval-Augmented Generation) system for Oxylabs documentation that combines web scraping, vector databases, and AI to provide intelligent question-answering capabilities with source attribution.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a sophisticated documentation assistant that scrapes Oxylabs developer documentation, processes it into a vector database, and provides multiple interfaces (CLI, REST API, Web UI) for intelligent question answering with accurate source references.
 
@@ -27,7 +27,7 @@ oxylabs/
 └── README.md           # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -76,7 +76,7 @@ uvicorn FastAPI.retrieval_api:app --reload
 # API available at http://localhost:8000
 ```
 
-## 📊 VectorDB/ - Data Processing Pipeline
+## VectorDB/ - Data Processing Pipeline
 
 The `VectorDB/` folder contains the core data processing pipeline that scrapes, processes, and stores documentation in a vector database.
 
@@ -191,7 +191,7 @@ main = Main(urls=[], sections=[])
 main.run_from_csv('scraped_data.csv')
 ```
 
-## 🌐 FastAPI/ - REST API Service
+## FastAPI/ - REST API Service
 
 The `FastAPI/` folder provides a production-ready REST API for the documentation assistant.
 
@@ -394,7 +394,7 @@ print(response)
 6. **Answer Generation**: Creates coherent response with sources
 
 
-## ⚠️ Current Issues & Limitations
+## Current Issues & Limitations
 
 ### Known Issues
 
